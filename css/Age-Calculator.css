@@ -1,0 +1,218 @@
+@font-face {
+    font-family: tam;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: land;
+    src: url(../fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: itali;
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+@font-face {
+    font-family: pan;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: gan;
+    src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+.sOD{
+    position: absolute;
+    bottom: 10px;
+    font-family: land;
+    margin: auto;
+    color: orange;
+}
+.WelcomeBro{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    border: groove;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #F0F0F0;
+}
+.seconman{
+    height: 500px;
+    width: 590px;
+    background: #ffffff;
+    border-bottom-right-radius: 30%;
+    padding: 35px;
+   
+}
+.bood{
+    display: flex;
+    gap: 20px;
+    /* padding-left: 10px; */
+}
+.jiggy{
+    display: flex;
+    flex-direction: column;
+}
+.tellperson{
+    font-family: tam;
+    font-size: 12px;
+    color: rgb(107, 105, 105);
+}
+.rudetown{
+    display: flex;
+    padding:5px 8px 5px 8px;
+    font-size: 27px;
+    font-family: tam;
+    width: 100px;
+    border-radius: 5px;
+    border: solid gray 2px;
+    outline: none;
+}
+.rudetown:focus{
+    border:2px solid purple ;
+}
+.seeaw{
+    font-size: 10px ;
+    font-family: itali ;
+    color: red ;
+    font-weight: lighter;
+}
+.kdk{
+    display:flex ;
+}
+.kizz{
+    width: 35px;
+    height: 35px; 
+}
+.hies{
+    outline: none;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    background:#864cff;
+    position: absolute;
+}
+.ageG{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 80%;
+    position: relative;
+    justify-content: flex-end;
+}
+.thie{
+    width: 100%;
+    display: flex;
+    gap: 3px;
+    font-size: 30px;
+    font-family: gan;
+}
+@media only screen and (max-width:650px) {
+    .seconman{
+        width: 510px;
+    }
+    .d-flex{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:540px) {
+    .seconman{
+        width: 440px;
+    }
+    .d-flex{
+        width: 90%;
+    }
+    
+}
+@media only screen and (max-width:490px) {
+    .seconman{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:440px) {
+    .seconman{
+        width: 365px;
+    }
+    .d-flex{
+        display: flex;
+        justify-content: center;
+        height: 75px;
+    }
+    .rudetown{
+        font-size:18px;
+        width: 70px;
+    }
+    .thie {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width:400px) {
+    .seconman{
+        width:330px;
+    }
+    .thie{
+        font-size: 23px;
+    }
+    .sOD{
+        font-size: 12px;
+    }
+    .seeaw1{
+        font-size: 12px;
+    }
+    .seeaw2{
+        font-size: 12px;
+    }
+    .seeaw3{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:365px){
+    .seconman{
+        width: 280px;
+        padding-top: 76px;
+    }
+    .thie{
+        font-size: 18px;
+    }
+    .rudetown{
+        font-size: 12px;
+        width: 62px;
+    }
+    
+    .hies{
+        width: 45px;
+        height: 45px;
+    }
+    .d-flex{
+        margin-bottom: 23px;
+    }
+}
+@media only screen and (max-width:300px){
+    .sOD{
+        font-size: 10px;
+
+    }
+    .seconman{
+        width: 250px;
+        padding-left: 15px;
+    }
+    .bood{
+        gap: 15px;
+    }
+}
