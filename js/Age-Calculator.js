@@ -79,39 +79,6 @@ buttons.onclick = () =>{
     rudetown[2].style.borderColor = 'red';
     return;
   }
-  if(forDay.toString().search(/[a-zA-Z ]/i) !== -1){
-    errorDay.innerHTML = 'Must be numbers';
-    errorDay.style.color = 'red';
-    tellperson[0].style.color = 'red';
-    tellperson[1].style.color = 'red';
-    tellperson[2].style.color = 'red';
-    rudetown[0].style.borderColor = 'red';
-    rudetown[1].style.borderColor = 'red';
-    rudetown[2].style.borderColor = 'red';
-    return;
-  }
-  if(forMonth.toString().search(/[a-zA-Z ]/i) !== -1){
-    errorMonth.innerHTML = 'Must be numbers';
-    errorMonth.style.color = 'red';
-    tellperson[0].style.color = 'red';
-    tellperson[1].style.color = 'red';
-    tellperson[2].style.color = 'red';
-    rudetown[0].style.borderColor = 'red';
-    rudetown[1].style.borderColor = 'red';
-    rudetown[2].style.borderColor = 'red';
-    return;
-  }
-  if(forYear.toString().search(/[a-zA-Z ]/i) !== -1){
-    errorYear.innerHTML = 'Must be numbers';
-    errorYear.style.color = 'red';
-    tellperson[0].style.color = 'red';
-    tellperson[1].style.color = 'red';
-    tellperson[2].style.color = 'red';
-    rudetown[0].style.borderColor = 'red';
-    rudetown[1].style.borderColor = 'red';
-    rudetown[2].style.borderColor = 'red';
-    return;
-  }
   if(forDay < 1){
     errorDay.innerHTML = 'Less value';
     errorDay.style.color = 'red';
